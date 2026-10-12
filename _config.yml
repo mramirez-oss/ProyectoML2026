@@ -1,0 +1,13 @@
+title: PhytoRadar-PY
+description: Detección temprana y monitoreo del tizón tardío en cultivos de tomate.
+url: "https://mramirez-oss.github.io"
+baseurl: "/ProyectoML2026"
+lang: es
+theme: jekyll-theme-cayman
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
