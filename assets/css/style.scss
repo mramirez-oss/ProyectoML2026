@@ -10,7 +10,8 @@ body { margin:0; background:var(--paper); color:var(--ink); font-family: "Helvet
 .wrap { width:min(1120px, calc(100% - 48px)); margin:auto; }
 .site-header { display:none; }
 .main-content { max-width:none; padding:0; }
-.site-hero { min-height:720px; position:relative; overflow:hidden; background:var(--dark); color:#f8f6ec; padding:74px 0 68px; }
+.site-hero { min-height:720px; position:relative; overflow:hidden; background:var(--dark) url("../img/tomato-late-blight.jpg") center 58% / cover no-repeat; color:#f8f6ec; padding:74px 0 68px; }
+.site-hero:before { content:""; position:absolute; inset:0; background:linear-gradient(90deg, rgba(15,35,26,.96) 0%, rgba(18,43,31,.84) 42%, rgba(18,43,31,.48) 100%), linear-gradient(0deg, rgba(15,35,26,.68), rgba(15,35,26,.12)); }
 .hero-content { position:relative; z-index:2; }
 .eyebrow { color:var(--green); font-size:11px; font-weight:800; letter-spacing:.2em; margin:0 0 25px; }
 .eyebrow-dark { color:#69821b; }

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: PhytoRadar-PY
+title: PhytoRadar - PY
 ---
 
 <header class="site-hero" id="inicio">
